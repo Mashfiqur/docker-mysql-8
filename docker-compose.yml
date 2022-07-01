@@ -13,9 +13,9 @@ services:
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     networks:
-      - ${DOCKET_NETWORK}
+      - edi-project-net
      
 #Docker Networks
 networks:
-    ${DOCKET_NETWORK}:
+    edi-project-net:
       external: true
